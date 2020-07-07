@@ -34,6 +34,7 @@ class CashRegister
       @total = 0.0
     else
     @total = @total - @@cart[@items.last]
+  end
     # binding.pry
   end
 
