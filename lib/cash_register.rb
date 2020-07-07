@@ -30,10 +30,10 @@ class CashRegister
   end
 
   def void_last_transaction
-    
+      binding.pry
     @total = @total - @@cart[@items.last]
   end
-    # binding.pry
+
   end
 
 
