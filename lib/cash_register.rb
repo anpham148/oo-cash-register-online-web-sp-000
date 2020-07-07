@@ -31,6 +31,7 @@ class CashRegister
 
   def void_last_transaction
     void_item = @items.pop
+    binding.pry
     @total = @total - @@cart[void_item]
 
   end
