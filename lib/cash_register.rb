@@ -34,8 +34,6 @@ class CashRegister
     @total = @total - @@cart[@items.last]
   end
 
-  end
-
 
 
 end
