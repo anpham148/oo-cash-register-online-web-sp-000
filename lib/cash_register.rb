@@ -19,7 +19,7 @@ class CashRegister
     @total = @total - (@total * (@discount / 100.0))
     a = @total.round
     message = "After the discount, the total comes to $#{@total}."
-    
+
   end
 
 end
