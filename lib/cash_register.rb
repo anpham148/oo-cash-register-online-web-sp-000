@@ -13,6 +13,7 @@ class CashRegister
     @title = title
     @total += (price * quantity)
     @quantity = quantity
+    @items << self
   end
 
   def apply_discount
