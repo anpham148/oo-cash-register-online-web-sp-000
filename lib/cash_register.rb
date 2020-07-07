@@ -31,7 +31,7 @@ class CashRegister
 
   def void_last_transaction
     @total = @total - @@cart[@items.last]
-    @total == 0.0 if @items == []
+    
   end
 
 
